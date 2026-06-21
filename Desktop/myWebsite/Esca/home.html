@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Iceland">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <p><i class="fa-solid fa-leaf"></i>ESCA</p>
+            </div>
+
+            <ul class="navbar">
+                <li><a href="home.html" class="active"><i class="fa-solid fa-house"></i><span>HOME</span></a></li>
+                <li><a href="place.html"><i class="fa-solid fa-location-dot"></i><span>PLACES</span></a></li>
+                <li><a href="about.html"><i class="fa-solid fa-circle-info"></i><span>ABOUT</span></a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- content section -->
+        <section id="content">
+            <div class="content_container">
+                <div class="left" data-aos="fade-right">
+                    <img src=" images/Travelers-cuate.png" alt="">
+                </div>
+                <div class="right">
+                    <h1 data-aos="fade-left" data-aos-delay="100">Where Will Your "Personality" Take You?</h1>
+                    <h3 data-aos="fade-left" data-aos-delay="300">Let your personality guide you to places you'll truly love.</h3>
+                    <p data-aos="fade-left" data-aos-delay="500">Explore destinations chosen specifically for your personality and discover experiences that feel
+                        naturally made for you.</p>
+                    <button onclick="location.href='#explore_flipcard'" data-aos="fade-up" data-aos-delay="500">EXPLORE NOW</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- flip card section -->
+        <section id="explore_flipcard">
+            <div class="flip-card-container">
+                <h1>Where do you belong?</h1>
+                <p>Every personality seeks a different kind of escape. Find the one that feels right for you.</p>
+                <div class="flip-card-card">
+                    <a href="analyst.html" class="card-link">
+                        <div class="flip-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="images/analyst.png" alt="Avatar" style="width:300px;height:300px;">
+                                    <h2>Analyst</h2>
+                                    <small>(INTJ, INTP, ENTJ, ENTP)</small>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>Perfect for curious minds who enjoy meaningful adventures and discovering places
+                                        beyond the ordinary.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="diplomat.html" class="card-link">
+                        <div class="flip-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="images/diplomat.png" alt="Avatar" style="width:300px;height:300px;">
+                                    <h2>Diplomat</h2>
+                                    <small>(INFJ, INFP, ENFJ, ENFP)</small>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>Dreamy escapes designed for travelers who seek beauty, peace, and emotional
+                                        connection.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="sentinel.html" class="card-link">
+                        <div class="flip-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="images/sentinel.png" alt="Avatar" style="width:300px;height:300px;">
+                                    <h2>Sentinel</h2>
+                                    <small>(ISTJ, ISFJ, ESTJ, ESFJ)</small>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>Comfortable and relaxing vacations for travelers who value calm experiences and
+                                        meaningful moments.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="explorer.html" class="card-link">
+                        <div class="flip-card" data-aos="fade-up" data-aos-delay="700">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="images/explorer.svg" alt="Avatar" style="width:300px;height:300px;">
+                                    <h2>Explorer</h2>
+                                    <small>(ISTP, ISFP, ESTP, ESFP)</small>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>Exciting destinations for free spirits who love adventure, energy, and
+                                        unforgettable
+                                        experiences.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026. All right reserve.</p>
+        <p>Designed by La.M_Khin</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200 
+        });
+    </script>
+</body>
+
+</html>
